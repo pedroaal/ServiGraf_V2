@@ -12,6 +12,7 @@ export default createHandler(() => (
         </head>
         <body>
           <div id="app">{children}</div>
+          <div id="portal-root" />
           {scripts}
         </body>
       </html>

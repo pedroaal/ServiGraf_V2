@@ -1,6 +1,6 @@
 import { Title } from "@solidjs/meta";
 import { createSignal } from "solid-js";
-import { Alert } from "~/components/Portal/Alert";
+import { Alert, showAlert } from "~/components/Portal/Alert";
 import { Loader } from "~/components/Portal/Loader";
 import { useAuth } from "~/lib/auth";
 import { A } from "@solidjs/router";
@@ -16,7 +16,7 @@ export default function Register() {
     e.preventDefault();
     
     if (password() !== confirmPassword()) {
-      alert("Las contraseñas no coinciden");
+      showAlert({ type: "error", message: "Las contraseñas no coinciden" });
       return;
     }
     
