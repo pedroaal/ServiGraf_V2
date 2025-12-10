@@ -10,11 +10,11 @@
   },
   "dependencies": {
     "@solidjs/meta": "^0.29.4",
-    "@solidjs/router": "^0.14.14",
-    "@solidjs/start": "^1.0.12",
+    "@solidjs/router": "^0.15.2",
+    "@solidjs/start": "^1.2.0",
     "appwrite": "^16.0.2",
     "solid-js": "^1.9.3",
-    "vinxi": "^0.4.3"
+    "vinxi": "^0.5.7"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
