@@ -15,3 +15,25 @@ yarn-error.log
 
 # mac cache
 ._*
+
+# SolidStart / Vite build outputs
+.output
+dist
+.solid
+.vinxi
+.vercel
+.netlify
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
