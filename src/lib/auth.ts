@@ -1,4 +1,4 @@
-import { createSignal, createEffect, JSX } from "solid-js";
+import { createSignal, createEffect } from "solid-js";
 import { account } from "~/lib/appwrite";
 import { useNavigate } from "@solidjs/router";
 import { showAlert } from "~/components/Portal";

@@ -12,6 +12,7 @@ export default createHandler(() => (
         </head>
         <body>
           <div id="app">{children}</div>
+          {/* Portal mount point for alerts, modals, and loaders */}
           <div id="portal-root" />
           {scripts}
         </body>
